@@ -1,27 +1,33 @@
 *{
     padding: 0;
     margin: 0;
-    
+    box-sizing: border-box;
 }
 
 body{
     background-color: chocolate;
-
+    font-family: 'Poppins';
+    font-weight: 600;
+    
 }
 
 h1{
     color: white;
+    text-align: center;
 }
 
 .tarjeta{
     background-color: white;
     width: 300px;
-    border-radius: 3%;
+    
+    border-radius: 5%;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 8px;
+    margin: 10px;
+    padding: 12px;
+    border: 2px solid black;
     transition: all 0.5s ease-in-out;
 }
 
@@ -38,12 +44,16 @@ h1{
 
 .tarjeta .imagen{
     width: 200px;
+    
 }
 
 .tarjeta img{
-    width: 100%;
+    background-color: aliceblue;
     object-fit: cover;
+    width: 150px;
+    height: 150px;
     border-radius: 5%;
+    text-align: center;
 }
 
 .tarjeta p{
